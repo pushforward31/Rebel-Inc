@@ -13,18 +13,46 @@ p{
 h2{
 	font-family: 'Cabin Sketch', cursive;
 	color: #a50505d1;
+	border-bottom: groove;
 }
 
 button {
 	left: 50%;
 }
 
+#top{
+	/*padding-bottom: 8%;*/
+}
+
+/*#left{
+	border-right: groove;
+}*/
+
+#right{
+	border-left: groove;
+}
+
+#right2{
+	border-top: groove;
+	padding-top: 3%;
+
+}
+
+#top-right{
+	padding-bottom: 4%;
+    padding-top: 2%;
+}
+
 .footer{
 	bottom: 5%;
-	left: 45%;
-	position: fixed;
+	left: 50%;
+	/*position: fixed;*/
 	text-align: center;
 	border-top: groove;
+}
+
+.btn{
+	margin-top: 1%;
 }
 
 * { 
